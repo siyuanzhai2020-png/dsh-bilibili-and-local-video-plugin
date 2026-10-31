@@ -1,0 +1,14 @@
+{
+  "_comment": "复制为 config.json 后按本机路径修改；所有项均可选，留空/删除则自动探测或在 PATH 中查找。",
+  "cache_dir": "",
+  "ffmpeg": "",
+  "ytdlp": "",
+  "model_dir": "",
+  "model_dir_small": "",
+  "device": "auto",
+  "compute_type": "auto",
+  "language": "auto",
+  "scene_hw": true,
+  "scene_hw_codecs": ["av1"],
+  "storyboard_max": 60
+}

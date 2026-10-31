@@ -1,0 +1,24 @@
+{
+  "name": "@local/dsh-video",
+  "version": "0.1.0",
+  "description": "Bind the local vidx video-reading engine (faster-whisper ASR + ffmpeg scenes + keyframes) into DSH by owning the official mcp-client bridge entry for the Python stdio MCP server",
+  "private": true,
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "dsh-plugin",
+    "video",
+    "bilibili",
+    "asr",
+    "mcp"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

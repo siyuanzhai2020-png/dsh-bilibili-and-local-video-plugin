@@ -1,0 +1,7 @@
+# @local/dsh-video bundle patch.
+# Mounts the vidx video-reading plugin. On every boot it registers the official
+# @deepseek-ai/dsh-mcp-client entry for the local vidx Python stdio MCP server
+# (defaults live in lib/index.js: engineDir / pythonPath / serverName / cacheDir).
+- insert:
+    - id: dsh-video
+      name: '@local/dsh-video'

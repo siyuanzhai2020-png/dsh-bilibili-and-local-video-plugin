@@ -1,0 +1,6 @@
+# @local/dsh-video-panel bundle patch.
+# 右侧栏「视频时间轴」面板：host 半边注册 /video-panel 路由，client 半边注册
+# sidebar.right.pane.tab / .title（key=@local/dsh-video-panel）与 guide 入口。
+- insert:
+    - id: dsh-video-panel
+      name: '@local/dsh-video-panel'

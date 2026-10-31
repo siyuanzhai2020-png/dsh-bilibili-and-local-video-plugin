@@ -1,0 +1,5 @@
+# Python 引擎依赖（ASR 相关；ffmpeg / yt-dlp 为外部程序，见 README）
+faster-whisper>=1.2.0
+ctranslate2>=4.4.0
+numpy>=1.26
+pypinyin>=0.55.0

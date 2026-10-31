@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# local config & caches
+config.json
+_video_cache/
+models/
+testdata/
+_work/
+
+# media
+*.mp4
+*.mkv
+*.webm
+*.wav
+*.m4a
+*.mp3
+*.srt
+*.ass
+*.vtt
+
+# node
+node_modules/
+*.tgz
+dist/
+
+# misc
+*.log
+.DS_Store
+Thumbs.db
+engine/tests/asr/out/
+engine/tests/asr/tmp/
